@@ -3,6 +3,12 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 
+
+"""
+Explicação do código está no arquivo: index.md
+Ou em: https://gusleaooliveira.github.io/energeticos-accelerator/ 
+"""
+
 class Programa():
     def icms(self, quantidade):
         return round((4.5*quantidade)*0.18, 2)
